@@ -1,4 +1,4 @@
-Identifying neuro-degenerative diseases with LSTM using gait data
+Distinguishing healthy population from series of neuro-degenerative diseases using LSTM with Keras
 ===================
 
 I founded an interesting **neuro-degenerative disease dataset** on [PhysioNet](https://www.physionet.org) that has samples of individuals with Parkinson's, Huntington's and Amyotrophic Lateral Sclerosis (ALS) diseases and healthy control subjects. The data ([doi:10.13026/C27G6C](https://www.physionet.org/physiobank/database/gaitndd/)) was obtained using force-sensitive resistors while the subjects were walking. So, I wanted to see if I could train a machine learning model to classify the healthy from the unhealthy based on their walking pattern. Since the number of subjects and samples was quite limited (n=64), I could not afford having too much features for the model. However, I could split the samples into subsamples and attempt to use those for classification.
