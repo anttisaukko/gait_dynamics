@@ -7,5 +7,8 @@ Since data is time series data, I thought that a RNN (recurrent neural network) 
 
 The implementation details are in the notebook in this repo but for those interested, I used two LSTM’s with 20 and 8 neurons and a dense fully connected 2 neuron network with binary cross validation. I am using 50% dropout on the LSTM layers. I’ve also included a code to classify all four classes with a categorical cross-entropy at the bottom of the notebook. I managed to reach **86.2%** validation accuracy for the healthy/unhealthy, and for all four classes about 70%.
 
+
+[Gait](https://en.wikipedia.org/wiki/Gait) (in the repo name) means the pattern of movement of the limbs of animals, including humans, during locomotion over a solid substrate.
+
 Have fun,
 Antti
